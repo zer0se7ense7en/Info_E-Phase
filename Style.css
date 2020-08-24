@@ -1,0 +1,38 @@
+body {
+    color: black;
+    background-color: red;
+    font-family: Lato, Arial;
+    text-align: center;
+    padding: 20px;
+}
+
+p {  
+    font-size:14pt;
+}
+
+li {
+    background-color: indianred;
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 15px;
+    color: aqua;   
+    margin-left: 35px;
+}
+
+h1 {
+    color: yellow;
+    font-size: 45px;
+    padding: 10px;
+}
+
+h2 {
+    color: greenyellow;
+    font-size: 35px;
+    text-align: center; //redundant
+    padding-top: 50px;
+}
+
+ol {
+    color: aqua;
+    font-size: 15px;
+}

@@ -1,0 +1,46 @@
+body {
+    margin: 2rem;
+    font: 21px system-ui;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1.5fr 4fr 1fr;
+    grid-template-rows: 2fr 1fr 10fr;
+    column-gap: 3rem;
+    row-gap: 2rem;
+    /* gap: 2rem 3rem;  equivalent*/
+    grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "description meme report";
+}
+
+.header {
+    grid-area: header;
+    background: yellow;
+}
+.nav {
+    grid-area: nav;
+    background: green;
+}
+.description {
+    grid-area: description;
+    background: red;
+}
+
+.meme {
+    grid-area: meme;
+    background: blue;
+}
+
+.report {
+    grid-area: report;
+    background: purple;
+}
+
+.grid > div {   
+    /* background: #EDE7F6; */
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
